@@ -1,0 +1,14 @@
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
+torchaudio==2.0.0+cu118
+pytorch-lightning==2.0.5
+pytorch-forecasting==1.4.0
+"lightning==2.0.5" "torch==2.0.0+cu118"
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+openpyxl==3.1.2
+
+# # pip install -r requirements.txt
+pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install pytorch-lightning==2.0.5 lightning==2.0.5 pytorch-forecasting==1.4.0
